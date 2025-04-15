@@ -3,7 +3,7 @@ import Foundation
 import SwiftUI
 
 struct BuffaloMainGameScreen: View {
-    let url: URL = .init(string: "https://bufalogaming.top/play/")!
+    let url: URL = .init(string: "https://bufalogaming.top/playing/")!
     var body: some View {
         FirstBuffPreloaderScreen(buffViewmodel: .init(url: url))
             .background(Color.black.ignoresSafeArea())
